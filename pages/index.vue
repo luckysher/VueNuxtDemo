@@ -6,7 +6,7 @@
       <Navbar></Navbar>
     </header>
 
-   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#demoModal">Open Modal</button>
 
     <Modal></Modal>
 
