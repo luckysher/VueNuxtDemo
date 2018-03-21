@@ -19,6 +19,17 @@
 </template>
 <script>
 export default {
+  data () {
+    return {
+      form: {
+        modalHeading: 'Demo Form data ',
+        username: '',
+        email: '',
+        password: ''
+      }
+    }
+  },
 
+  }
 }
 </script>
