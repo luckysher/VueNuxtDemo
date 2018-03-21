@@ -2,6 +2,8 @@
 
 NUXT JS  demo project using the VUE JS and bootstrap css framework
 
+![basic-features](https://github.com/luckysher/VueNuxtDemo/blob/master/mockup.png)
+
 This demo shows how to:
 
 1. How to import online plugins in the web page like: jquery, bootstrap etc.. using nuxt.config.js
