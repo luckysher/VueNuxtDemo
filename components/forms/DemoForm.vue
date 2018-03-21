@@ -29,7 +29,11 @@ export default {
       }
     }
   },
-
+  methods: {
+    send (event) {
+      event.preventDefault()
+      alert('Submitting Data:' + JSON.stringify(this.form))
+    }
   }
 }
 </script>
