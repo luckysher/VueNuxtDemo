@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="form-wrapper">
     <form>
       <div class="form-group">
         <label for="name">Username:</label>
@@ -13,7 +13,7 @@
         <label for="pwd">Password:</label>
         <input type="password" v-model="form.password" class="form-control" id="pwd" >
       </div>
-      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#demoModal" v-on:click="send($event)">Open Modal</button>
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#demoModal" v-on:click="send($event)">Login</button>
     </form>
   </div>
 </template>
