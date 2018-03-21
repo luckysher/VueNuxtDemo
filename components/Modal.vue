@@ -9,7 +9,7 @@
           <h4 class="modal-title">{{ modalHeading }}</h4>
         </div>
         <div class="modal-body">
-          <p>{{ content }}</p>
+          <p>Username:  {{ content }}</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -22,8 +22,8 @@
 <script>
 export default {
   data () {
-    return { modalHeading: 'Demo modal',
-      content: 'This is demo modal for VUE and NUXT project'
+    return { modalHeading: 'Confirmation Dialog',
+      content: 'Submitting Form'
     }
   }
 }
