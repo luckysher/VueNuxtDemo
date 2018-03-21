@@ -10,6 +10,7 @@ body{
   display:flex;
   position:relative;
   align-items:center;
+  margin-bottom:0px;
 }
 
 .footer-text{
@@ -17,4 +18,11 @@ body{
   color:#333;
   width:100%;
   text-align:center;
+}
+.form-wrapper{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10%;
+  margin-bottom:10%;
 }
