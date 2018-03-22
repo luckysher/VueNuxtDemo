@@ -11,4 +11,5 @@ This demo shows how to:
 3. Uses of data export in Vue JS
 4. Uses of method export in Vue JS
 5. Uses of import component in Vue JS
+6. Uses of raw html rendering in Vue JS
 
