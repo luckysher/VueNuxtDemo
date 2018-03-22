@@ -1,15 +1,18 @@
 <template>
   <div>
     <!-- Page header with NavBar-->
-    <!-- Page footer End -->
+    <!-- Page body Start -->
+    <div class="container">
+      <div style="height:70vh;">
+        <div class="demoImg hide">
+        </div>
+
+      </div>
+    </div>
+    <!-- Page body end -->
   </div>
 </template>
 
 <script>
 
-
-export default {
-  components: {
-  }
-}
 </script>
