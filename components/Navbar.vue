@@ -7,8 +7,8 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#imgdemo">Img Demo</a></li>
-        <li><a href="#">Menu 2</a></li>
-        <li><a href="#">Menu 3</a></li>
+        <li><a href="#form">Form Demo</a></li>
+        <li><a href="#vfor">V-for loop demo</a></li>
       </ul>
     </div>
   </nav>
