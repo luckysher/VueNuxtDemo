@@ -10,12 +10,12 @@ $(document).ready(function(){
     if($(this).attr('href') === '#imgdemo'){
         h(ac);
         $('.demoImg').addClass('show');
-        ac = $('demoImg');
+        ac = $('.demoImg');
     }
     if($(this).attr('href') === '#formdemo'){
         h(ac);
         $('#form').addClass('show');
         ac = $('#form');
     }
-        alert("testing jjquery load..." + $(this).attr('href'));
+
 });});
