@@ -1,5 +1,5 @@
 <template>
-  <div class="form-wrapper">
+  <div class="form-wrapper" id="form">
     <form>
       <div class="form-group">
         <label for="name">Username:</label>
@@ -19,21 +19,6 @@
 </template>
 <script>
 export default {
-  data () {
-    return {
-      form: {
-        modalHeading: 'Demo Form data ',
-        username: '',
-        email: '',
-        password: ''
-      }
-    }
-  },
-  methods: {
-    send (event) {
-      event.preventDefault()
-      alert('Submitting Data:' + JSON.stringify(this.form))
-    }
-  }
+
 }
 </script>
