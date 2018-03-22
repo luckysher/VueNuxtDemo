@@ -33,3 +33,9 @@ body{
   background-repeat: no-repeat;
   background-position: center;
  }
+.hide{
+  display:none;
+}
+.show{
+  display:block;
+}
