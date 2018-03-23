@@ -17,5 +17,9 @@ $(document).ready(function(){
         $('#form').addClass('show');
         ac = $('#form');
     }
-
+     if($(this).attr('href') === '#vfordemo'){
+        h(ac);
+        $('#form').addClass('show');
+        ac = $('#form');
+    }
 });});
