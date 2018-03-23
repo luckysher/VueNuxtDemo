@@ -7,7 +7,7 @@
         <div class="demoImg">
         </div>
         <div id="vfor"  style="display:none;" class="show">
-          <h3>v-for loop demo</h3>
+          <h3 class="text-center">v-for loop demo</h3>
           <div class="vfor">
             <table class="table">
               <thead>
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <!-- Page footer End -->
+    <!-- Page body end -->
   </div>
 </template>
 
