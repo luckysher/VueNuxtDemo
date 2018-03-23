@@ -30,12 +30,14 @@ body{
 .demoImg{
   width:100%;
   height:600px;
-  background:url('azure_loggo.png');
+  background:url('/static/img/azure_loggo.png');
   background-repeat: no-repeat;
   background-position: center;
   display:none;
  }
-
+.vfor{
+    background-color:#938938;
+}
 .show{
   display:block;
 }
