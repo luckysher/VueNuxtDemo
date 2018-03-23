@@ -25,5 +25,14 @@
 </template>
 
 <script>
-
+export default {
+  data: {
+    return {
+      books:[
+        {'name': 'The Foreigner', 'author': 'Mac The', 'description': 'The Foreigner book written by Mac The is ....'},
+        {'name': 'The Visitor', 'author': 'Crimson', 'description': 'The Visitor book written by Crimson is ....'},
+        {'name': 'Empire Sold', 'author': 'Spooky Tooth', 'description': 'Empire Sold book written by Spooky Tooth is ....'}]
+    }
+  }
+}
 </script>
