@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  var ac = null;
+  var ac =  $('#vfor');
   var h = function(o){
     if($(o).hasClass('show')){
         $(o).removeClass('show');
@@ -19,7 +19,7 @@ $(document).ready(function(){
     }
      if($(this).attr('href') === '#vfordemo'){
         h(ac);
-        $('#form').addClass('show');
-        ac = $('#form');
+        $('#vfor').addClass('show');
+        ac = $('#vfor');
     }
 });});
